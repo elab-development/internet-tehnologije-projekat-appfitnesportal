@@ -20,4 +20,5 @@ class TypeFactory extends Factory
             'name'=>$this->faker->unique()->word()
         ];
     }
+    
 }
