@@ -15,6 +15,7 @@ class CategoryCollection extends ResourceCollection
     public static $wrap='categories';
     public function toArray($request)
     {
+        
         return parent::toArray($request);
     }
 }
