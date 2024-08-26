@@ -25,4 +25,5 @@ class ServiceFactory extends Factory
             'type_id'=>Type::factory()
         ];
     }
+    
 }
