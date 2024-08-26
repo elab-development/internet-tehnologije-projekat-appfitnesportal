@@ -15,6 +15,7 @@ class CoachCollection extends ResourceCollection
     public static $wrap='coaches';
     public function toArray($request)
     {
+        
         return parent::toArray($request);
     }
 }
